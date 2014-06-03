@@ -13,6 +13,8 @@ OBJECTS	= ${SOURCES:.c=.o}
 OUT	= fbv
 #add png ingif again
 #20140602
+#20140602pcbranch1
+
 LIBS	=  -ljpeg -lpng -lungif 
 
 all: $(OUT)
