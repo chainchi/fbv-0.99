@@ -11,6 +11,7 @@ SOURCES	= main.c jpeg.c gif.c png.c bmp.c fb_display.c resize.c
 OBJECTS	= ${SOURCES:.c=.o}
 
 OUT	= fbv
+#add png ingif
 LIBS	=  -ljpeg -lpng -lungif 
 
 all: $(OUT)
