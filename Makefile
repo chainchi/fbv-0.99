@@ -5,7 +5,7 @@
 
 include Make.conf
 
-CC	= arm-linux-gcc -O2 -Wall
+CC	= arm-marvell-linux-gnueabi-gcc -O2 -Wall
 
 SOURCES	= main.c jpeg.c gif.c png.c bmp.c fb_display.c resize.c
 OBJECTS	= ${SOURCES:.c=.o}
